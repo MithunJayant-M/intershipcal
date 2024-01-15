@@ -22,9 +22,7 @@ body {
     font-size: 90px;
     text-align: right;
     font-family: Digital-7, sans-serif;
-    letter-spacing: 8px;
-
-    
+    letter-spacing: 8px;    
 }
 .grid-container {
     display: grid;
