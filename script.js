@@ -14,7 +14,7 @@ function clr(input) {
 }
 function handleButtonClick(value) {
     if(value === 'c'){
-        display.textContent = clr(display.textContent); 
+        display.textContent = clear(display.textContent); 
     }
     if (value === '=') {
         display.textContent = eval(display.textContent);
