@@ -9,12 +9,9 @@ arr.forEach(item => {
     button.addEventListener('click', () => handleButtonClick(item));
     grid.appendChild(button);
 });
-function clr(value) {   
-    return '';
-}
 function handleButtonClick(value) {
     if(value === 'c'){
-        display.textContent = clr(display.textContent); 
+        display.textContent = remove(display.textContent); 
     }
     if (value === '=') {
         display.textContent = eval(display.textContent);
