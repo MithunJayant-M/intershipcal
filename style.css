@@ -1,4 +1,5 @@
 body {
+    background: radial-gradient(circle at 74.2% 50.9%, rgb(14, 72, 222) 5.2%, rgb(3, 22, 65) 75.3%);
     margin: 0;
     padding: 0;
     display: flex;
@@ -7,7 +8,7 @@ body {
     height: 100vh;
   }
 .calci{
-    height:480px;
+    height:580px;
     width:480px;
     background-color: rgb(94, 132, 246);
     border-radius: 50px;
