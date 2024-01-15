@@ -7,7 +7,6 @@ arr.forEach(item => {
     button.className = 'grid-item';
     button.textContent = item;
     button.addEventListener('click', () => handleButtonClick(item));
-    <input type="button" value="c" onclick="clr()"/> 
     grid.appendChild(button);
 });
 
