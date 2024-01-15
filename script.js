@@ -11,7 +11,7 @@ arr.forEach(item => {
 });
 function handleButtonClick(value) {
     if(value === 'c'){
-        display.textContent = ''; 
+        display.textContent =clear(); 
     }
     if (value === '=') {
         display.textContent = eval(display.textContent);
