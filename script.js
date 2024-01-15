@@ -7,6 +7,7 @@ arr.forEach(item => {
     button.className = 'grid-item';
     button.textContent = item;
     button.addEventListener('click', () => handleButtonClick(item));
+    <input type="button" name = "clear" style="font-size:30px" value=" c " OnClick="Calculator.Input.value = ''">
     grid.appendChild(button);
 });
 
