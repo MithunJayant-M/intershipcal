@@ -1,4 +1,4 @@
-let arr = [7, 8, 9, '+', 4, 5, 6, '-', 1, 2, 3,'*','cr',0,'/','='];
+let arr = [7, 8, 9, '+', 4, 5, 6, '-', 1, 2, 3,'*','c',0,'/','='];
 const grid = document.getElementById('grid-container');
 const display = document.querySelector('.display');
 
@@ -9,9 +9,11 @@ arr.forEach(item => {
     button.addEventListener('click', () => handleButtonClick(item));
     grid.appendChild(button);
 });
-
+function clr(input) {   
+    return '';
+}
 function handleButtonClick(value) {
-    if(value === 'cr'){
+    if(value === 'c'){
         display.textContent = clr(display.textContent); 
     }
     if (value === '=') {
